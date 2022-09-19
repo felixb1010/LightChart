@@ -168,4 +168,5 @@ public struct CurvedChart: View {
     }
 }
 
+@available(iOS 13.0, watchOS 6.0, *)
 extension CurvedChart: DataRepresentable { }
