@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, watchOS 6.0, *)
 public struct LineChart: View {
     
     private let data: [Double]
